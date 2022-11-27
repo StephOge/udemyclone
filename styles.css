@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1d1f
+    font-weight: 400px;
+    line-height: 1.4;
+    font-size: 1.6rem
+    margin: 0
+}
+nav.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav.nav div.logo img{
+    width: 91px;
+    height: 54px;
+}
+nav.nav a.category {
+    text-decoration: none;
+    color: black;
+}
+nav.nav input {
+    border-radius: 50px;
+    border: 1px solid #1c1d1f;
+    width: 400px;
+    height: 50px;
+}
+a.svg svg {
+    width: 25px;
+    color: black;
+}
+nav.nav a.text {
+    text-decoration: none;
+    color: black;
+}
+a.login button{
+    color: #1c1d1f;
+    background-color:  transparent;
+    border: 1px solid #1c1d1f;
+    width: 80px;
+    height: 40px;
+}
+nav.nav a.signup button{
+    background-color: #1c1d1f;
+    color: white;
+    width: 80px;
+    height: 40px;
+}
+a.svg button.world {
+    color: #1c1d1f;
+    background-color:  transparent;
+    border: 1px solid #1c1d1f;
+}
+div.intro {
+    position: absolute;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 2.4rem;
+    top: 3.4rem;
+    width: 34rem;
+    left: 4.8rem;
+}
+div.wrapper div.texts {
+    margin-top: 20px;
+    line-height: 2;
+}
+div.texts ul.list {
+    display: flex;
+    list-style-type: none;
+}
+div.texts ul.list li {
+    margin-left: 25px;
+    color: #1c1d1f;
+}
+ul.lists li.python {
+    color: black;
+    font-weight: bold;
+}
+div.wrapper div.career {
+    margin: 17px;
+    border: 1px solid #1c1d1f;
+    padding: 3.2rem;
+    
+}
+div.expand {
+    display: block;
+    margin-bottom: 3.2rem;
+}
+div.expand a {
+    text-decoration: none;
+    color: #1c1d1f;
+    background-color: transparent;
+    border: 1px solid #1c1d1f;
+    height: 4rem;
+}
+div.career div.groups {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+
+}
+div.career div.fourth img{
+    width: 240px;
+    height: 135px;
+}
+div.icons {
+    display: flex;
+}
